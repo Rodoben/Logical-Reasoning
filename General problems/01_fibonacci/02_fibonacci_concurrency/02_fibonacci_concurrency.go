@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	fmt.Println("hi")
 	for n := range fibonacciConcurrent(10) {
-		fmt.Println(n)
+		fmt.Print(n, " ")
 	}
 
 }
