@@ -13,10 +13,10 @@ func main() {
 }
 
 // naman
-func palindrome(s string) bool {
-	s = strings.ToLower(strings.Join(strings.Fields(s), ""))
-	for i := 0; i < len(s)/2; i++ {
-		if s[i] != s[len(s)-1-i] {
+func palindrome(str string) bool {
+	str = strings.ToLower(strings.Join(strings.Fields(str), ""))
+	for i := 0; i < len(str)/2; i++ {
+		if str[i] != str[len(str)-1-i] {
 			return false
 		}
 	}
