@@ -1,4 +1,4 @@
-// using a list
+# using a list
 def fibonacci(n):
   fib = []
   if n>=1:
@@ -14,7 +14,7 @@ print(fibonacci(10))
 
 print("__________________")
 
-// using for loop
+#using for loop
 def fibonacciLoop(n):
   a, b = 0,1
   for x in range (0,n):
