@@ -6,7 +6,6 @@ import (
 )
 
 func Test_FibonaacciConcurrent(t *testing.T) {
-
 	tests := []struct {
 		name           string
 		input          int
