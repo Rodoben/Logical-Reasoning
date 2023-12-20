@@ -8,13 +8,12 @@ import "fmt"
 
 func main() {
 	fmt.Println(mergeAlternateString("abcd", "zxcvaa"))
-
 }
 
 func mergeAlternateString(word1, word2 string) string {
 	var result string
 	l := len(word1)
-	if len(word2) > len(word1) {
+	if len(word2) > l {
 		l = len(word2)
 	}
 	for i := 0; i < l; i++ {
