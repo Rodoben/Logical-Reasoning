@@ -23,7 +23,6 @@ func findSubstringIndex(str1, str2 string) int {
 			fmt.Println("here", str1[i+j], str2[j])
 			if str1[i+j] != str2[j] {
 				match = false
-				//fmt.Println("when", i, j)
 				break
 			}
 		}
