@@ -12,11 +12,11 @@ func main() {
 
 func mergeAlternateString(word1, word2 string) string {
 	var result string
-	l := len(word1)
-	if len(word2) > l {
-		l = len(word2)
+	maxlength := len(word1)
+	if len(word2) > maxlength {
+		maxlength = len(word2)
 	}
-	for i := 0; i < l; i++ {
+	for i := 0; i < maxlength; i++ {
 		if i < len(word1) {
 			result += string(word1[i])
 		}

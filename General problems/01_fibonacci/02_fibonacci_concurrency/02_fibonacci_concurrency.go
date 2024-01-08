@@ -7,7 +7,6 @@ func main() {
 	for n := range fibonacciConcurrent(10) {
 		fmt.Print(n, " ")
 	}
-
 }
 
 func fibonacciConcurrent(c int) <-chan int {
